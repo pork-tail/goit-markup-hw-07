@@ -1,0 +1,17 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    .page-header & {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .footer & {
+        display: flex;
+        justify-content: center;
+    }
+}
